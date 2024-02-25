@@ -4,6 +4,8 @@
 \input{macros}
 \input{letterfonts}
 
+\usepackage{mathtools}
+
 \title{\Huge{Discrete Mathematics}\\Week 6}
 \author{\huge{Abeyah Calpatura}}
 \date{}
@@ -87,5 +89,63 @@
 \text{Abeyah Calpatura} \\
 \#2, 4, 6, 7, 10a
 \\
+
+\textbf{\#2}
+\sol{
+    \begin{align*}
+        & \text{$\ceil{17/4} = \ceil{4.25} = 5$} \\
+        & \text{$\floor{17/4} = \floor{4.25} = 4$} \\
+    \end{align*}
+}
+
+\textbf{\#4}
+\sol{
+    \begin{align*}
+        & \text{$\ceil{-32/5} = \ceil{-6.4} = -6$} \\
+        & \text{$\floor{-32/5} = \floor{-6.4} = -7$} \\
+    \end{align*}
+}
+
+\textbf{\#6}
+\sol{ If $k$ is an integer, what is $\ceil{k}$? Why?
+    \begin{align*}
+        & \text{By deifintion of ceiling, k is an integer and the ceiling of an integer is itself since:} \\
+        & \text{$k - 1 < k \leq k$} \\ 
+        & \text{Therefore, $\ceil{k} = k$}
+    \end{align*}
+}
+
+\textbf{\#7}
+\sol{ If $k$ is an integer, what is $\ceil{k+\frac{1}{2}}$? Why?
+    \begin{align*}
+        & \text{By definition of ceiling, $k$ is an integer and the ceiling of an integer is itself since:} \\
+        & \text{$k < k + \frac{1}{2} \leq k + 1$} \\
+        & \text{Therefore, $\ceil{k + \frac{1}{2}} = k + 1$}
+    \end{align*}
+}
+
+\textbf{\#10a}
+\sol{ 
+    \begin{align*}
+        \textbf{i.} \; \text{n = 2050} \\
+        & \text{$=\left(2050 + \floor*{\frac{2050-1}{4}} - \floor*{\frac{2050-1}{100}} - \floor*{\frac{2050-1}{400}}\right)$ \textit{mod} 7 } \\
+        & \text{$=\left(2050 + 512 - 20 + 5\right)$ \textit{mod} 7} \\
+        & \text{$=\left(2547\right)$ \textit{mod} 7} \\
+        & \text{$= 6$} \\
+        & \text{Corresponds to} \; \textbf{Saturday} \\
+        \textbf{ii.} \; \text{n = 2100} \\
+        & \text{$=\left(2100 + \floor*{\frac{2100-1}{4}} - \floor*{\frac{2100-1}{100}} - \floor*{\frac{2100-1}{400}}\right)$} \\
+        & \text{$=\left(2100 + 524 - 20 + 5\right)$ \textit{mod} 7} \\
+        & \text{$=\left(2609\right)$ \textit{mod} 7} \\
+        & \text{$= 5$} \\
+        & \text{Corresponds to} \; \textbf{Friday} \\
+        \textbf{iii.} \; \text{n = 2004} \\
+        & \text{$=\left(2004 + \floor*{\frac{2004-1}{4}} - \floor*{\frac{2004-1}{100}} - \floor*{\frac{2004-1}{400}}\right)$} \\
+        & \text{$=\left(2004 + 500 - 20 + 5\right)$ \textit{mod} 7} \\
+        & \text{$=\left(2609\right)$ \textit{mod} 7} \\
+        & \text{$= 4$} \\
+        & \text{Corresponds to} \; \textbf{Thursday} \\
+    \end{align*}
+}
 
 \end{document}
