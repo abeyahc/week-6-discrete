@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  25 FEB 2024 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  26 FEB 2024 05:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,25 +1263,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
-[3] [4] (./week6.aux)
+[3] [4]
+
+/Users/abeyahc/Documents/Discrete Math/Notes Latex/week 6/week-6-discrete/hw/week6.tex:154: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \text
+           {Abeyah Calpatura} \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
+
+ []
+
+[5] (./week6.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 37267 strings out of 476025
- 752384 string characters out of 5790017
+ 37271 strings out of 476025
+ 752424 string characters out of 5790017
  1869388 words of memory out of 5000000
  57029 multiletter control sequences out of 15000+600000
  554687 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,102p,533b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on week6.pdf (5 pages, 120202 bytes).
+Output written on week6.pdf (6 pages, 122933 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
