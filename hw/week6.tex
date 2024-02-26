@@ -5,6 +5,10 @@
 \input{letterfonts}
 
 \usepackage{mathtools}
+\setlength{\abovedisplayskip}{-15pt}
+\setlength{\belowdisplayskip}{0pt}
+\setlength{\abovedisplayshortskip}{0pt}
+\setlength{\belowdisplayshortskip}{0pt}
 
 \title{\Huge{Discrete Mathematics}\\Week 6}
 \author{\huge{Abeyah Calpatura}}
@@ -165,23 +169,35 @@
 
 \textbf{\#4}
 \sol{ Use proof by contradiction to show that for every integer $m$, $7m+4$ is not divisible by 7.
-    \begin{align*}
-        & \text{n is divisble if and only if there exists some integer k such that}
-    \end{align*}
-        \begin{equation}
-            n = 7k
-        \end{equation}
-    \begin{align*}
+\begin{align*}
         & \text{By the definition of divisble, there exists an integer k such that:} \\
-        & \text{} \\
+\end{align*}
+    \begin{align*}
+        & \text{$7m + 4 = 7k$} \\
+        & \text{$4 = 7k - 7m$} \\
+        & \text{$4 = 7(k - m)$} \\
     \end{align*}
+\begin{align*}
+        & \text{Since $k - m$ is an integer, $4$ is divisible by $7$.} \\
+        & \text{This is a contradiction, since $4$ is not divisible by $7$.} \\
+\end{align*}
 }
 
 \textbf{\#9b}
-\sol{
+\sol{Prove that the difference of any irrational number and any rational number is irrational.
     \begin{align*}
-        & \text{} \\
-        & \text{} \\
+        & \text{Let us assume that x is an irrational number and y is a rational number such that their difference $x-y$ is rational.} \\
+        & \text{By the definition of rational, there exist integers a, b, c, and d with $b \neq 0$ and $d \neq 0$ such that}
+    \end{align*}
+    \begin{align*}
+        & \text{$x = \frac{a}{b}$} \\
+        & \text{$y = \frac{c}{d}$} \\
+        & \text{$x - y = \frac{a}{b} - \frac{c}{d}$} \\
+        & \text{$x - y = \frac{ad - bc}{bd}$} 
+    \end{align*}
+    \begin{align*}
+        & \text{Since $ad - bc$ and $bd$ are integers, $x - y$ is rational.} \\
+        & \text{This is a contradiction, since $x - y$ is irrational.}
     \end{align*}
 }
 
