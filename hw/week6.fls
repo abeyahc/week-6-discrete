@@ -550,6 +550,13 @@ INPUT D:\MiTex Installation\fonts\tfm\public\newtx\ntxexx.tfm
 INPUT D:\MiTex Installation\fonts\vf\public\newtx\ntxexx.vf
 INPUT D:\MiTex Installation\fonts\tfm\public\newtx\txexs.tfm
 INPUT D:\MiTex Installation\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT D:\MiTex Installation\fonts\vf\public\newpx\zplmi.vf
+INPUT D:\MiTex Installation\fonts\tfm\public\newpx\NewPXMI_gnu.tfm
+INPUT D:\MiTex Installation\fonts\tfm\public\newpx\NewPXMI.tfm
+INPUT D:\MiTex Installation\fonts\tfm\public\newtx\stxscr.tfm
+INPUT D:\MiTex Installation\fonts\vf\public\newpx\zplmia.vf
+INPUT D:\MiTex Installation\fonts\tfm\public\newpx\pxmiaX.tfm
+INPUT D:\MiTex Installation\fonts\tfm\public\newtx\txmiaSTbb.tfm
 INPUT week6.aux
 INPUT D:\MiTex Installation\fonts\type1\public\newpx\NewPXMI.pfb
 INPUT D:\MiTex Installation\fonts\type1\public\newpx\NewPXMI.pfb

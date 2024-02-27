@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1708959884.91558 "d:/school/Spring 2024/discrete math/week-6-discrete/hw/week6.tex" "week6.pdf" "week6" 1708959887.14469 2
+["pdflatex"] 1709046430.24245 "d:/school/Spring 2024/discrete math/week-6-discrete/hw/week6.tex" "week6.pdf" "week6" 1709046432.34681 2
   "C:/Users/abeya/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1707980671 155818 66901b2e3f1df0c5cefe60f35db598ee ""
   "C:/Users/abeya/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1707881074 21030965 213cd56358ad60fdf37bc5d197e03c82 ""
   "D:/MiTex Installation/fonts/enc/dvips/newpx/px-lms.enc" 1705745965 3877 2ca811886181a05a861d20a35de75e06 ""
@@ -267,12 +267,12 @@
   "D:/MiTex Installation/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "D:/MiTex Installation/tex/latex/xifthen/xifthen.sty" 1448274436 5689 1bfa68243e89a54479e7d0580773c57e ""
   "D:/MiTex Installation/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/school/Spring 2024/discrete math/week-6-discrete/hw/week6.tex" 1708959883 7005 10919f49550ef8c7d567b7b21c99bf42 ""
+  "d:/school/Spring 2024/discrete math/week-6-discrete/hw/week6.tex" 1709046429 11080 e3c4dfc14379c1272dc7cf8b16cad8f0 ""
   "letterfonts.tex" 1708954805 8702 300377c5f733ebe6aa4b7f8e56db5921 ""
   "macros.tex" 1708954805 3477 93000260d2aea292d29c76d4ace77a29 ""
   "preamble.tex" 1708954805 20831 cac64cd8837854e12008c40220fda887 ""
-  "week6.aux" 1708959886 284 7d9c6719353eabc02ac71bffda1a1eb6 "pdflatex"
-  "week6.tex" 1708959883 7005 10919f49550ef8c7d567b7b21c99bf42 ""
+  "week6.aux" 1709046431 285 c8c0fd960fc149cd6976087d4d66c206 "pdflatex"
+  "week6.tex" 1709046429 11080 e3c4dfc14379c1272dc7cf8b16cad8f0 ""
   (generated)
   "week6.aux"
   "week6.log"
