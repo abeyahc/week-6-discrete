@@ -3,6 +3,7 @@
 \input{preamble}
 \input{macros}
 \input{letterfonts}
+\usepackage{longdivision}
 
 \usepackage{mathtools}
 \setlength{\abovedisplayskip}{0pt}
@@ -328,28 +329,54 @@
 \textbf{\#5}
 \sol{
     \begin{align*}
-        & \text{} \\ 
+        \textbf{1st loop:} \;
+        & \text{$f=2*1=2$ and $e=0+\frac{1}{2}=\frac{1}{2}$} \\ 
+        \textbf{2nd loop:} \;
+        & \text{$f=2*2=4$ and $e=\frac{1}{2}+\frac{1}{4}=\frac{3}{4}$} \\ 
+        \textbf{3rd loop:} \;
+        & \text{$f=4*3=12$ and $e=\frac{3}{4}+\frac{1}{12}=\frac{5}{6}$} \\
+        \textbf{4th loop:} \;
+        & \text{$f=12*4=48$ and $e=\frac{5}{6}+\frac{1}{48}=\frac{41}{48}$} \\
+        &\textbf{$e=\frac{41}{48}$} \;
     \end{align*}
 }
 
 \textbf{\#12}
-\sol{
+\sol{ Find the prime factorizations of 48 and 54. 
     \begin{align*}
-        & \text{} \\ 
+        & \text{$48=2^4 \cdot 3$ $54 = 2 \cdot 3^3$} \\ 
+        & \text{gcd(48,54) = $2 \cdot 6$} \\
+        & \text{gcd(48,54) = 6} \\
     \end{align*}
 }
 
 \textbf{\#15}
-\sol{
+\sol{ 10933 and 832
     \begin{align*}
-        & \text{} \\ 
+        & \text{\intlongdivision{10933}{832}} \\
+        & \text{gcd(10933, 832) = gcd(832, 117)} \\
+        & \text{\intlongdivision{832}{117}} \\
+        & \text{gcd(832, 117) = gcd(117, 13)} \\
+        & \text{\intlongdivision{117}{13}} \\
+        & \text{gcd(117, 13) = gcd(13, 0)} \\
+        & \text{gcd(10933, 832) = 13} \\
     \end{align*}
 }
 
 \textbf{\#16}
-\sol{
+\sol{ 4131 and 2431
     \begin{align*}
-        & \text{} \\ 
+        & \text{\intlongdivision{4131}{2431}} \\
+        & \text{gcd(4131, 2431) = gcd(2431, 1700)} \\
+        & \text{\intlongdivision{2431}{1700}} \\
+        & \text{gcd(2431, 1700) = gcd(1700, 731)} \\
+        & \text{\intlongdivision{1700}{731}} \\
+        & \text{gcd(1700, 731) = gcd(731, 238)} \\
+        & \text{\intlongdivision{731}{238}} \\
+        & \text{gcd(731, 238) = gcd(238, 17)} \\
+        & \text{\intlongdivision{238}{17}} \\
+        & \text{gcd(238,17) = gcd(17, 0)} \\
+        & \text{gcd(4131, 2431) = 17} \\
     \end{align*}
 }
 
